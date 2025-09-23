@@ -90,10 +90,12 @@
   }
 
   .homesocials {
-    display: flex;
-    flex-direction: row;
-    bottom: -47px;
-    left: 35%;
+    display: flex !important
+;
+        flex-direction: row;
+        bottom: -47px;
+        left: 35%;
+        margin-bottom: -3px;
   }
 
   .homesocials::after {
