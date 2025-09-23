@@ -87,16 +87,13 @@
   .home {
     height: auto;
     padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 
   .homesocials {
     display: flex;
     flex-direction: row;
-    bottom: -25px;          /* أقل مسافة ثابتة تناسب كل الشاشات */
-    left: 50%;              /* توسيط الأفقي */
-    transform: translateX(-50%);
-    gap: 0.5rem;            /* مسافة بين الأيقونات */
+    bottom: -47px;
+    left: 35%;
   }
 
   .homesocials::after {
@@ -105,18 +102,6 @@
   }
 
   .scroll_down {
-    bottom: -25px;          /* أقل مسافة ثابتة */
-    right: 50%;             /* توسيط أفقي */
-    transform: translateX(50%);
-  }
-
-  .me img {
-    width: 150px;           /* تصغير الصورة لتناسب الشاشات الصغيرة */
-  }
-
-  .btns {
-    flex-direction: column;
-    gap: 0.5rem;
+    right: -47px;
   }
 }
-
