@@ -112,7 +112,7 @@
   .homesocials {
         flex-direction: column;
         left: -1%;
-        bottom: -4%;
+        bottom: -2%;
         gap: 1rem;
   }
 }

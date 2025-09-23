@@ -1,18 +1,38 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./Nav.css";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  // Close menu if click outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen]);
+
   return (
     <nav className="navbar">
       <div className="logo">Laith</div>
 
-      <ul className={`nav-links ${isOpen ? "active" : ""}`}>
+      <ul ref={menuRef} className={`nav-links ${isOpen ? "active" : ""}`}>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
