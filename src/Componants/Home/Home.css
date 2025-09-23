@@ -54,25 +54,6 @@
   color: var(--color-light);   /* يتغير اللون عند الهوفر */
   transform: rotate(90deg) translateX(5px);
 }
-.homesocials{
-    display: flex;
-    flex-direction: column;
-    left: 0;
-    bottom: 50px;
-    position: absolute;
-    gap: 0.8rem;
-    align-items: center;
-}
-.homesocials::after{
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background:var(--color-praimary);
-}
-
-.homesocials a{
-    font-size: 25px;
-}
 
 /*mobile*/
 @media (max-width:600px) {
@@ -89,15 +70,7 @@
     padding-top: 5rem;
   }
 
-  .homesocials {
-    display: flex !important
-;
-        flex-direction: row;
-        bottom: -47px;
-        left: 35%;
-        margin-bottom: -3px;
-  }
-
+ 
   .homesocials::after {
     content: '';
     width: 0;
@@ -107,3 +80,41 @@
     right: -47px;
   }
 }
+.homesocials {
+ display: flex;
+     color: #4bd5ff;
+
+    flex-direction: column;
+    position: absolute;
+    left: 6%;
+    bottom: -41px;
+    transform: translateX(-50%);
+    gap: 0.8rem;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.homesocials::after {
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+.homesocials a {
+  font-size: 25px;
+  color: var(--color-primary);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .homesocials {
+    flex-direction: row;
+    left: 50%;
+    bottom: -7%;
+    
+    gap: 1rem;
+  }
+}
+
