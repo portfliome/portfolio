@@ -101,7 +101,11 @@ img{
         width: 90%;
     }
     section{
-    padding-top: 5rem ;
+    padding-top: 4rem ;
 }
     
+}
+
+html {
+  scroll-behavior: smooth;
 }

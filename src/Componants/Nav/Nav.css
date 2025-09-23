@@ -60,7 +60,7 @@
   }
 
   .nav-links.active {
-    max-height: 300px; /* ارتفاع كافي يفتح اللينكات */
+    max-height: 443px; /* ارتفاع كافي يفتح اللينكات */
   }
 
   .nav-links li {

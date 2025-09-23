@@ -111,7 +111,7 @@
 @media (max-width: 600px) {
   .homesocials {
         flex-direction: column;
-        left: 1%;
+        left: -1%;
         bottom: -4%;
         gap: 1rem;
   }
