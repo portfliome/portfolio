@@ -1,0 +1,67 @@
+#education {
+  padding: 5rem 2rem;
+  background: var(--color-bg);
+  text-align: center;
+}
+
+#education h5 {
+  color: var(--color-light);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#education h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.education_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.education_card {
+  background: var(--color-bg-variant);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education_card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.education_content h3 {
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.education_content h4 {
+  color: var(--color-light);
+  margin-bottom: 1rem;
+}
+
+.education_content p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.education_period {
+  display: inline-block;
+  font-size: 0.85rem;
+  background: var(--color-primary-variant);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+}
+
+/* Responsive */
+@media (max-width:1024px) {
+  .education_container {
+    grid-template-columns: 1fr;
+  }
+}
