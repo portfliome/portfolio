@@ -1,16 +1,12 @@
 import React from 'react'
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaDribbble } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
 
 function Homesocial() {
   return (
     <div className='homesocials'>
-        <a herf="#" target='_blank' ><FaLinkedin/></a>
-        <a herf="#" target='_blank' ><FaGithub/></a>
-        <a herf="#" target='_blank' ><FaDribbble/></a>
-
-
+        <a href="#" target='_blank' rel="noreferrer"><FaLinkedin/></a>
+        <a href="#" target='_blank' rel="noreferrer"><FaGithub/></a>
+        <a href="#" target='_blank' rel="noreferrer"><FaDribbble/></a>
     </div>
   )
 }
