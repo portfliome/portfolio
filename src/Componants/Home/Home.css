@@ -83,23 +83,25 @@
     
 }
 
-@media (max-width:400px) {
-    .home{
-        height: auto;
-        padding-top: 5rem;
-    }
-    .homesocials{
-        display: flex;
-        flex-direction: row;
-        bottom: -47px;
-        left: 35%;
-        
-    }
-    .homesocials::after{
-        content: '';
-        width: 0;
-    }
-    .scroll_down{
-        right:-47px;
-    }
+@media (max-width: 480px) {
+  .home {
+    height: auto;
+    padding-top: 5rem;
+  }
+
+  .homesocials {
+    display: flex;
+    flex-direction: row;
+    bottom: -47px;
+    left: 35%;
+  }
+
+  .homesocials::after {
+    content: '';
+    width: 0;
+  }
+
+  .scroll_down {
+    right: -47px;
+  }
 }
