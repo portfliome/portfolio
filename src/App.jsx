@@ -23,7 +23,7 @@ function App() {
       <Education/>
       <Contact/>
       
-      <Projects/>
+      
       <Footer/>
 
 

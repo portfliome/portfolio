@@ -8,13 +8,13 @@
 }
 
 #contact h5 {
-  color: var(--color-light);
+  color:#000;
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
 
 #contact h2 {
-  color: var(--color-primary);
+  color: #000;
   margin-bottom: 3rem;
 }
 
@@ -51,7 +51,7 @@
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  color: var(--color-primary);
+  color: #000;
   font-weight: 500;
   transition: all 0.3s ease;
 }
@@ -106,6 +106,15 @@
   box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
 }
 
+.contact_form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact_form .btn {
+  background-color: var(--color-primary);
+  color: #050505;
+}
 /* Status Message */
 .status {
   font-size: 0.95rem;
@@ -118,4 +127,8 @@
   .contact_container {
     grid-template-columns: 1fr;
   }
+}
+
+.contact_card h3,p {
+    color: #000 !important;
 }

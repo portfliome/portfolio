@@ -3,67 +3,65 @@ import "./Skills.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 
 
-import Css from '../../assets/css3.svg';
-import sql from '../../assets/mysql2.svg';
-import Figma from '../../assets/figma.svg';
-import Javascript from '../../assets/javascript.svg';
-import Magento2 from '../../assets/magento-2.svg';
-import Php from '../../assets/Webysther_20160423_-_Elephpant.svg.png';
-import ReactJS from '../../assets/react.svg';
-import Tailwind from '../../assets/tailwindcss.svg';
+import Css from '../../assets/1.png';
+import sql from '../../assets/2.png';
+import Figma from '../../assets/5.png';
+import Javascript from '../../assets/3.jpeg';
+import Magento2 from '../../assets/4.png';
+import Php from '../../assets/5.png';
+import ReactJS from '../../assets/2.png';
+import Tailwind from '../../assets/1.png';
 
 
 const SkillsData = [
-  
   {
     id: 1,
-    image: Css,
-    title: 'CSS',
-    disc: 'User Interface',
-  },
-  {
-    id: 1,
-    image: Javascript,
-    title: 'JavaScript',
-    disc: 'Interaction',
-  },
-  {
-    id: 1,
-    image: ReactJS,
-    title: 'React',
-    disc: 'Framework',
-  },
-  {
-    id: 1,
-    image: Tailwind,
-    title: 'TailwindCSS',
-    disc: 'User Interface',
-  },
-  {
-    id: 1,
-    image: Php,
-    title: 'PHP',
-    disc: 'Web Server',
+    image: Css, // غير الصورة لاحقاً
+    title: 'Sales & Negotiation',
+    disc: 'Achieving targets & closing deals',
   },
   {
     id: 2,
-    image: Figma,
-    title: 'Figma',
-    disc: 'Design tool',
+    image: Javascript, // غير الصورة لاحقاً
+    title: 'Customer Relationship',
+    disc: 'Building trust & long-term relations',
   },
   {
     id: 3,
-    image: sql,
-    title: 'MySql',
-    disc: 'Data Base',
+    image: ReactJS, // غير الصورة لاحقاً
+    title: 'Communication Skills',
+    disc: 'Effective verbal & written communication',
   },
   {
-    id:4 ,
-    image: Magento2,
-    title: 'Magento2',
-    disc: 'E-commerce wep app',
+    id: 4,
+    image: Tailwind, // غير الصورة لاحقاً
+    title: 'Time Management',
+    disc: 'Organizing tasks under pressure',
   },
-  
+  {
+    id: 5,
+    image: Php, // غير الصورة لاحقاً
+    title: 'Teamwork',
+    disc: 'Collaborative learning & flexibility',
+  },
+  {
+    id: 6,
+    image: Figma, // غير الصورة لاحقاً
+    title: 'Microsoft Office',
+    disc: 'Word, Excel, PowerPoint, Outlook',
+  },
+  {
+    id: 7,
+    image: sql, // غير الصورة لاحقاً
+    title: 'Digital Marketing',
+    disc: 'Social media & campaign support',
+  },
+  {
+    id: 8,
+    image: Magento2, // غير الصورة لاحقاً
+    title: 'Problem Solving',
+    disc: 'Handling client inquiries effectively',
+  },
 ];
 
 

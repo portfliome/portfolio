@@ -30,7 +30,7 @@ function Nav() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Laith</div>
+      <div className="logo">Farah</div>
 
       <ul ref={menuRef} className={`nav-links ${isOpen ? "active" : ""}`}>
         <li><a href="#home">Home</a></li>

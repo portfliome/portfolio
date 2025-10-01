@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer_container">
         {/* Left side */}
         <div className="footer_left">
-          <h3>Laith Barakat</h3>
+          <h3>Farah Muhmoud </h3>
           <p>© {new Date().getFullYear()} All Rights Reserved</p>
         </div>
 

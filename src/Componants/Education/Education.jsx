@@ -6,30 +6,51 @@ function Education() {
     {
       id: 1,
       title: 'Bachelor Degree',
-      subtitle: 'Yarmouk University',
-      details: 'Computer Information Systems',
+      subtitle: 'The University of Jordan',
+      details: 'Business Economics | Grade: Good',
       period: '2019 - 2023'
     },
     {
       id: 2,
-      title: 'Online Courses',
-      subtitle: 'Udemy',
-      details: 'Web Development, .NET, React',
-      period: '2022'
+      title: 'Sales Trainee',
+      subtitle: 'Arabia Connect',
+      details: 'Outbound calls, telesales & customer communication',
+      period: '3 months'
     },
     {
       id: 3,
-      title: 'Internship',
-      subtitle: 'Polaris',
-      details: 'Web Development Training',
-      period: '2025'
+      title: 'Sales Executive',
+      subtitle: 'Romex Dubai (Apple Authorized Reseller)',
+      details: 'Promoted and sold Apple products, supported store operations',
+      period: '3 months'
     },
     {
       id: 4,
-      title: 'Work Experience',
-      subtitle: 'Shopyard',
-      details: 'Front-End & Back-End Development',
-      period: '2025 - Present'
+      title: 'Account Manager - B2B Sales',
+      subtitle: 'Zain Jordan',
+      details: 'Managed business client accounts & delivered tailored telecom solutions',
+      period: '—'
+    },
+    {
+      id: 5,
+      title: 'Field Sales Representative - B2C',
+      subtitle: 'Umniah',
+      details: 'Promoted mobile services & achieved daily/monthly targets',
+      period: '—'
+    },
+    {
+      id: 6,
+      title: 'Finance Trainee',
+      subtitle: 'Dar Al-Dawa',
+      details: 'Supported finance department & accounting documentation',
+      period: '—'
+    },
+    {
+      id: 7,
+      title: 'Training Courses',
+      subtitle: 'Edraak Center',
+      details: 'ICDL | Introduction to Human Resource Management',
+      period: '—'
     }
   ];
 

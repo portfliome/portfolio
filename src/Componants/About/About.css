@@ -40,7 +40,7 @@
 }
 
 .about_card {
-    background: var(--color-bg-variant);
+    background:#ffffff;
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -57,19 +57,26 @@
 }
 
 .about_icon {
-    color: var(--color-primary);
+    color:#000000;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .about_card h5 {
     font-size: 1rem;
+    color:#000;
 }
 
 .about_card small {
     font-size: 0.75rem;
-    color: var(--color-light);
+    color: #000;
 }
+.about_card:hover h5,
+.about_card:hover small,
+.about_card:hover .about_icon {
+    color: #fff;
+}
+
 
 .about_content p {
     margin: 2rem 0 2.6rem;
@@ -136,3 +143,6 @@
 
 
 
+.about_content p {
+    color: #fff !important;
+}

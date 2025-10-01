@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background: #47c5ee;
-  color: white;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -22,13 +22,13 @@
 }
 
 .nav-links li a {
-  color: white;
+  color: rgb(17, 17, 17);
   text-decoration: none;
   transition: 0.3s;
 }
 
 .nav-links li a:hover {
-  color: #00bcd4;
+  color: #656f70;
 }
 
 /* Burger icon */
@@ -40,7 +40,7 @@
 .burger .line {
   width: 25px;
   height: 3px;
-  background: white;
+  background: rgb(0, 0, 0);
   margin: 5px;
   transition: 0.3s;
 }

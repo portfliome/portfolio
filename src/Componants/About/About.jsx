@@ -1,5 +1,5 @@
 import './About.css'
-import ME from '../../assets/laithabout.jpeg'
+import ME from '../../assets/laithabout.jpeg' // هون بدك تحطي صورة Farah إذا عندك
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -22,32 +22,34 @@ const About = () => {
                 <article className="about_card">
                   <FaAward className='about_icon' />
                   <h5>Experience</h5>
-                  <small>2+ years in Full Stack Development</small>
+                  <small>1+ year in Direct & B2B Sales</small>
                 </article>
 
                 <article className="about_card">
                   <FiUsers className='about_icon' />
                   <h5>Clients</h5>
-                  <small>Worked with startups & businesses worldwide</small>
+                  <small>Worked with corporate & individual customers</small>
                 </article>
 
                 <article className="about_card">
                   <VscFolderLibrary className='about_icon' />
-                  <h5>Projects</h5>
-                  <small>Dozens of Magento 2 & Web Projects</small>
+                  <h5>Roles</h5>
+                  <small>Sales Executive, Account Manager, Field Sales</small>
                 </article>
               </div>
 
               <p>
-                I'm a passionate <strong>Full Stack Developer</strong> specialized in 
-                <strong> Magento 2</strong> and modern web technologies.  
-                I build custom extensions, optimize performance, integrate APIs, and craft 
-                tailored solutions that help businesses grow.  
-                With experience in <strong>React</strong> and backend development, 
-                I aim to deliver scalable, clean, and efficient software.
+                I'm <strong>Farah Iyad Mustafa Muhmoud</strong>, a motivated 
+                <strong> Sales Professional</strong> with experience in promoting and 
+                selling telecom and technology services.  
+                Skilled in <strong>direct sales, account management, and customer relationship building</strong>,  
+                with a proven record of achieving sales targets and delivering tailored solutions.  
+                I hold a <strong>Bachelor's degree in Business Economics</strong> from 
+                The University of Jordan, and I bring strong communication, negotiation, and 
+                problem-solving skills to every role I take on.
               </p>
 
-              <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+              <a href="#contact" className='btn btn-primary'>Let's Connect</a>
           </div>
         </div>
     </section>
