@@ -7,7 +7,7 @@ function Education() {
       id: 1,
       title: 'Bachelor Degree',
       subtitle: 'The University of Jordan',
-      details: 'Business Economics | Grade: Good',
+      details: 'Business Economics',
       period: '2019 - 2023'
     },
     {
