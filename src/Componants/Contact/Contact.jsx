@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { FaEnvelope, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "./Contact.css";
 
 function Contact() {
@@ -41,14 +41,14 @@ function Contact() {
           <h3>Contact Info</h3>
           <p>Reach out via any of the following platforms:</p>
           <div className="contact_methods">
-            <a href="mailto:laithbarakat08@gmail.com" target="_blank" rel="noreferrer">
+            <a href="mailto:farahmhamoud43@gmail.com" target="_blank" rel="noreferrer">
               <FaEnvelope /> Email
             </a>
-            <a href="https://www.linkedin.com/in/laithbarakat08/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/farah-mhmoud-b4ba19321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app/" target="_blank" rel="noreferrer">
               <FaLinkedin /> LinkedIn
             </a>
-            <a href="https://www.facebook.com/laithbarakat08" target="_blank" rel="noreferrer">
-              <FaFacebook /> Facebook
+            <a href="https://www.instagram.com/maraktingbyfarah?igsh=MWo1enNzMTQyZG00cg==" target="_blank" rel="noreferrer">
+              <FaInstagram /> Instagram
             </a>
           </div>
         </div>

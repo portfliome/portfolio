@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { FaEnvelope, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -20,14 +20,14 @@ function Footer() {
 
         {/* Right side - Social Icons */}
         <div className="footer_socials">
-          <a href="mailto:laithbarakat08@gmail.com" target="_blank" rel="noreferrer">
+          <a href="farahmhamoud43@gmail.com" target="_blank" rel="noreferrer">
             <FaEnvelope />
           </a>
-          <a href="https://www.linkedin.com/in/laithbarakat08/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/farah-mhmoud-b4ba19321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app/" target="_blank" rel="noreferrer">
             <FaLinkedin />
           </a>
-          <a href="https://www.facebook.com/laithbarakat08" target="_blank" rel="noreferrer">
-            <FaFacebook />
+          <a href="https://www.instagram.com/maraktingbyfarah?igsh=MWo1enNzMTQyZG00cg==" target="_blank" rel="noreferrer">
+            <FaInstagram/>
           </a>
         </div>
       </div>

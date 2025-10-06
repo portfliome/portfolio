@@ -1,5 +1,5 @@
 {
-  "name": "portfoilo",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -21,5 +21,5 @@
     "gh-pages": "^5.0.0",
     "vite": "^7.1.7"
   },
-  "homepage": "https://laithba.github.io/test"
+  "homepage": "https://portfliome.github.io/portfolio/"
 }
